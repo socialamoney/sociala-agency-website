@@ -1,41 +1,28 @@
-# SOCIALA AGENCY — Site web officiel
+# SOCIALA AGENCY — Site Next.js
 
-Site vitrine + boutique + espace client de **SOCIALA AGENCY**, agence de marketing digital basée à Douala (Cameroun).
+Nouvelle version professionnelle du site de **SOCIALA AGENCY**, agence de marketing digital basée à Douala (Cameroun).
 
 **Slogan** : Communiquer • Innover • Impacter
 
-## Fonctionnalités
-
-- Site one-page moderne (design system avec coupe diagonale signature)
-- Mode clair / sombre
-- Support bilingue FR / EN (partiel)
-- Sections dynamiques pilotées par Supabase (services, blog, FAQ, témoignages, formations, centre d'aide)
-- Boutique en ligne avec panier
-- Checkout intégré (Mobile Money, carte bancaire, crypto) via FuturaPay
-- Formulaires de devis et contact
-- Intégration WhatsApp
-- Animations au scroll + accessibilité soignée
-
 ## Stack
 
-- HTML / CSS / JavaScript vanilla (aucun framework front)
-- Supabase (base de données + storage + edge functions)
-- Paiements : FuturaPay
+- **Next.js 15** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Supabase** (backend existant)
 
-## Structure du dépôt
+## Démarrage local
 
+```bash
+npm install
+npm run dev
 ```
-.
-├── index.html          # Page principale
-├── README.md
-└── ...
-```
+
+Ouvrez [http://localhost:3000](http://localhost:3000).
 
 ## Déploiement
 
-Le site est conçu pour être déployé en static (Netlify, Vercel, Cloudflare Pages, ou tout hébergeur statique).
-
-Les appels API pointent vers le projet Supabase de production.
+Le projet est conçu pour être déployé sur **Vercel**.
 
 ## Contact
 
